@@ -35,7 +35,6 @@ export class TodosService {
     }
 
     async toggleCompleted(id: string) {
-        // First get current status
         const { data: todo, error: fetchError } = await this.supabase
             .from('todos')
             .select('completed')
