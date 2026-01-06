@@ -19,6 +19,10 @@ Pemilihan *stack* teknologi ini didasarkan pada kebutuhan akan stabilitas, skala
 - **Modular Design**: Komponen yang dapat digunakan kembali dan mudah diuji.
 - **Fast Integration**: Terhubung langsung dengan ekosistem Supabase.
 
+## Requirements
+- Node.js >= v20
+- npm >= v10.2.4
+
 ## Project setup
 
 ```bash
